@@ -3,14 +3,14 @@ This repository contains e2e test for Digikala website, written in Robot Framewo
 
 ## Project structure
 Digikala/
-├─ tests/
-│  ├─ login.robot
-│  └─ cart_checkout.robot
-├─ resources/
-│  ├─ browser.resource      # open/close browser, common setup
-│  └─ keywords.resource     # reusable keywords (login, add to cart, etc.)
-├─ results/                 # reports output (created at runtime)
-└─ README.md
+├── tests/
+│ ├── login.robot
+│ └── cart_checkout.robot
+├── resources/
+│ ├── browser.resource # open/close browser, common setup
+│ └── keywords.resource # reusable keywords (login, add to cart, etc.)
+├── results/ # reports output (created at runtime)
+└── README.md
 
 ## How to run Tests
 Some of the existing tests require a valid Digikala account in order to execute successfully.
