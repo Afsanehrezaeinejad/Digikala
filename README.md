@@ -2,15 +2,21 @@
 This repository contains e2e test for Digikala website, written in Robot Framework and Selenium library
 
 ## Project structure
-Digikala/
-├── tests/
-│ ├── login.robot
-│ └── cart_checkout.robot
-├── resources/
-│ ├── browser.resource # open/close browser, common setup
-│ └── keywords.resource # reusable keywords (login, add to cart, etc.)
-├── results/ # reports output (created at runtime)
-└── README.md
+tests/ – contains test suites
+
+login.robot – verifies login functionality
+
+cart_checkout.robot – verifies search, add-to-cart, and checkout flow
+
+resources/ – shared resources and reusable keywords
+
+browser.resource – handles browser setup, teardown, and common actions
+
+keywords.resource – reusable keywords for login, add-to-cart, etc.
+
+results/ – stores test reports and logs generated at runtime
+
+README.md – project documentation
 
 ## How to run Tests
 Some of the existing tests require a valid Digikala account in order to execute successfully.
