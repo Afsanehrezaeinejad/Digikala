@@ -3,16 +3,12 @@ This repository contains e2e test for Digikala website, written in Robot Framewo
 
 ## Project structure
 tests/ – contains test suites
-
-login.robot – verifies login functionality
-
-cart_checkout.robot – verifies search, add-to-cart, and checkout flow
-
+  login.robot – verifies login functionality
+  cart_checkout.robot – verifies search, add-to-cart, and checkout flow
+  
 resources/ – shared resources and reusable keywords
-
-browser.resource – handles browser setup, teardown, and common actions
-
-keywords.resource – reusable keywords for login, add-to-cart, etc.
+  browser.resource – handles browser setup, teardown, and common actions
+  keywords.resource – reusable keywords for login, add-to-cart, etc.
 
 results/ – stores test reports and logs generated at runtime
 
